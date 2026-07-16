@@ -186,7 +186,7 @@ class Order:
             how="left"
         )
 
-        training_data = training_data.merge(
+        training_data= training_data.merge(
             self.get_price_and_freight(),
             on="order_id",
             how="left"
